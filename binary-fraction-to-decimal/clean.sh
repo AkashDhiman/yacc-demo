@@ -1,0 +1,1 @@
+rm lex.yy.c lex.yy.o parse.tab.c parse.tab.h parse.tab.o program
