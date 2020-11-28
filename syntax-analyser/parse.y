@@ -9,14 +9,6 @@ extern void print_symbol_table();
 extern struct symbol_table* symbol_list;
 %} 
 
-%token IF
-%token ELSE
-%token INT
-%token FLOAT
-%token CHAR
-%token DOUBLE
-%token RETURN
-%token VOID
 %token WHILE
 %token PLUS
 %token MINUS
@@ -41,6 +33,14 @@ extern struct symbol_table* symbol_list;
 %token COMMENT_END
 %token ID
 %token NUM
+%token IF
+%token ELSE
+%token INT
+%token FLOAT
+%token CHAR
+%token DOUBLE
+%token RETURN
+%token VOID
                                                                                                                                                       
  
 

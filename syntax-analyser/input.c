@@ -6,7 +6,6 @@ int gcd(int b, int a) {
     return b;
   else
     return gcd(a, b - b / a * a);
-  /* b-b/a*a == b mod a*/
 }
 
 float fact(float n) {
@@ -20,8 +19,8 @@ float fact(float n) {
 void main(void) {
   int x;
   int y;
-  x = 420;
-  y = 69;
+  x = 100;
+  y = 50;
   print(gcd(x, y));
   print(fact(10));
 }

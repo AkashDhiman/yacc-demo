@@ -86,10 +86,6 @@
 
 void add_symbol(int type, char* symbol) {
   struct symbol_table *sp;
-  if (find_symbol(symbol) == 1) {
-    yyerror("symbol already defined");
-    return;
-  }
   sp = (struct symbol_table* ) malloc(sizeof(struct symbol_table));
   sp->next = symbol_list;
   strcpy(sp->name, symbol);
